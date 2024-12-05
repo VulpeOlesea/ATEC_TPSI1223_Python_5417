@@ -1,3 +1,10 @@
+# =====================================================================
+# Tarefa: Lab #2
+# UFCD: 5417 - Programação para a WEB - Servidor (server-side)
+# Turma: TPSI PL 1223
+# Formador: Nelson Santos
+# Formanda: Olesea Vulpe
+# =====================================================================*/
 '''
 Criação e Modificação de Dicionários
 
@@ -28,7 +35,7 @@ print(evento["título"])
 print(pessoa["cidade"])
 print(produto["nome do produto"])
 
-print("---------------------------------------------------\n")
+print("\n---------------------------------------------------")
 # Modificar um dos valores dentro de cada dicionário
 data["ano"] = 1990
 evento["hora"] = "20:00"
@@ -40,7 +47,7 @@ print(evento)
 print(pessoa)
 print(produto)
 
-print("---------------------------------------------------\n")
+print("\n---------------------------------------------------")
 # Adicionar uma nova chave-valor ao dicionário
 data["hora"] = "08:08"
 evento["localização"] = "All In Porto"
@@ -52,7 +59,7 @@ print(evento)
 print(pessoa)
 print(produto)
 
-print("---------------------------------------------------\n")
+print("\n---------------------------------------------------\n")
 # Remover uma chave de um dos dicionários
 pessoa.pop("altura")
 print(pessoa)

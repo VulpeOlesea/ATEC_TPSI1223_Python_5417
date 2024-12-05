@@ -1,3 +1,10 @@
+# =====================================================================
+# Tarefa: Lab #2
+# UFCD: 5417 - Programação para a WEB - Servidor (server-side)
+# Turma: TPSI PL 1223
+# Formador: Nelson Santos
+# Formanda: Olesea Vulpe
+# =====================================================================*/
 '''
 Criação e Modificação de Listas
 
@@ -23,7 +30,7 @@ print(numeros[0],",", numeros[-1])
 print(nomes[0],",", nomes[-1])
 print(tarefas[0],",", tarefas[-1])
 
-print("---------------------------------------------------\n")
+print("\n---------------------------------------------------")
 # Adicionar um novo elemento ao final de cada lista
 numeros.append(14)
 nomes.append("Lora")
@@ -33,7 +40,7 @@ print(numeros)
 print(nomes)
 print(tarefas)
 
-print("---------------------------------------------------\n")
+print("\n---------------------------------------------------")
 # Remover o segundo elemento de cada lista
 numeros.pop(1)
 nomes.pop(1)
@@ -43,13 +50,13 @@ print(numeros)
 print(nomes)
 print(tarefas)
 
-print("---------------------------------------------------\n")
+print("\n---------------------------------------------------")
 # Ordenar a lista de números em ordem crescente
 numeros.sort()
 
 print(numeros)
 
-print("---------------------------------------------------\n")
+print("\n---------------------------------------------------\n")
 # Iterar sobre a lista de nomes e imprime uma mensagem de saudação para cada nome
 for nome in nomes:
     print(f"Olá, {nome}!")
